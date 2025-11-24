@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSS Aggregator</title>
+    <title>Agregador de RSS | Hexlet</title>
 </head>
 <body>
-    <div class="container-fluid py-5">
-        <h1 class="display-4 text-center">Agregador de RSS</h1>
-        
-        <section class="mt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form id="rss-form">
-                        <div class="input-group mb-3">
-                            <input type="url" class="form-control" placeholder="URL del flujo RSS" aria-label="URL del flujo RSS" required>
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="submit">Agregar</button>
-                            </div>
-                        </div>
-                        <p class="text-muted small">Por ejemplo: https://news.google.com/rss</p>
-                    </form>
-                </div>
+    <div class="container-fluid bg-light p-5">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto text-dark">
+                <h1 class="display-3 mb-4">Agregador de Feeds RSS</h1>
+                <p class="lead">Empieza a leer hoy. Es fácil, es gratis.</p>
+                
+                <form id="rss-form" class="row">
+                    <div class="col">
+                        <input id="url-input" name="url" type="text" class="form-control form-control-lg" placeholder="Enlace del feed RSS" required autofocus>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-lg btn-primary" aria-label="Añadir">Añadir</button>
+                    </div>
+                </form>
+                
+                <!-- Contenedor para mensajes de error/éxito -->
+                <p id="feedback" class="feedback m-0 pt-2 small"></p>
             </div>
-        </section>
-        
-        <div id="feeds-and-posts" class="row mt-5">
-            </div>
+        </div>
     </div>
+
+    <!-- Contenido Principal: Feeds y Noticias -->
+    <div class="container-fluid p-5">
+        <div class="row">
+            <!-- Columna de Feeds -->
+            <div class="col-md-4" id="feeds-container">
+                <!-- Los feeds se renderizarán aquí -->
+            </div>
+            
+            <!-- Columna de Posts -->
+            <div class="col-md-8" id="posts-container">
+                <!-- Los posts se renderizarán aquí -->
+            </div>
+        </div>
+    </div>
+
 </body>
-</html>
+</html>0
