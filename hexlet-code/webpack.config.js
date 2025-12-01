@@ -1,20 +1,30 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  mode: 'development', // Cambiar a 'production' para el despliegue final
+  mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
     clean: true,
   },
   devServer: {
-    open: true,
+    static: './dist',
     port: 8080,
+    hot: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html',
+    }),
+  ],
   module: {
     rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -25,16 +35,6 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './index.html', // Usa tu archivo base como plantilla
-      title: 'RSS Aggregator - Hexlet',
-    }),
-  ],
 };
