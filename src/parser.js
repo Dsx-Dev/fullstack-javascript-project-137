@@ -1,4 +1,8 @@
+﻿<<<<<<< HEAD:src/parser.js
 ﻿export default (data) => {
+=======
+export default (data) => {
+>>>>>>> a110fa70f9a0a55edc0689b4d1fe5ae7d4ebdf80:hexlet-code/src/parser.js
   const parser = new DOMParser();
   const doc = parser.parseFromString(data, 'application/xml');
 
