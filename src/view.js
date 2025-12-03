@@ -1,8 +1,4 @@
-<<<<<<< HEAD:src/view.js
-=======
-import { Modal } from 'bootstrap';
 
->>>>>>> a110fa70f9a0a55edc0689b4d1fe5ae7d4ebdf80:hexlet-code/src/view.js
 const renderFeeds = (feeds, elements, i18n) => {
   const { feedsContainer } = elements;
 
@@ -72,8 +68,7 @@ const renderPosts = (posts, visitedPostIds, elements, i18n) => {
   postsContainer.innerHTML = postsHTML;
 };
 
-<<<<<<< HEAD:src/view.js
-=======
+
 const renderModal = (post, elements) => {
   const { modal } = elements;
   const modalTitle = modal.querySelector('.modal-title');
@@ -85,7 +80,7 @@ const renderModal = (post, elements) => {
   modalLink.href = post.link;
 };
 
->>>>>>> a110fa70f9a0a55edc0689b4d1fe5ae7d4ebdf80:hexlet-code/src/view.js
+
 const setFeedback = (message, type, elements) => {
   const { feedback, input } = elements;
   
