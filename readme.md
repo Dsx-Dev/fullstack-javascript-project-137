@@ -1,7 +1,6 @@
 # RSS Reader
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/your-badge-here/maintainability)](https://codeclimate.com/github/Dsx-Dev/fullstack-javascript-project-137/maintainability)
-[![Node CI](https://github.com/Dsx-Dev/fullstack-javascript-project-137/workflows/Node%20CI/badge.svg)](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions)
+[![hexlet-check](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml)
 
 ## 📖 Descripción
 
