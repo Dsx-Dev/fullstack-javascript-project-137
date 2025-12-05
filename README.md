@@ -1,10 +1,7 @@
 # RSS Reader
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/your-badge-here/maintainability)](https://codeclimate.com/github/Dsx-Dev/fullstack-javascript-project-137/maintainability)
-[![Node CI](https://github.com/Dsx-Dev/fullstack-javascript-project-137/workflows/Node%20CI/badge.svg)](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions)
-
 ## 📖 Descripción
-
+[![hexlet-check](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml)
 RSS Reader es un agregador de fuentes RSS que permite agregar un número ilimitado de feeds RSS, actualizarlos automáticamente y visualizar nuevas entradas en un flujo general.
 
 **[🚀 Ver Demo en Vivo](https://your-project.vercel.app)**
