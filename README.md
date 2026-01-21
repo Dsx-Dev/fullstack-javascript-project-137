@@ -1,7 +1,7 @@
 # Fullstack JavaScript Project - 137
 
 [![hexlet-check](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dsx-Dev/fullstack-javascript-project-137/actions/workflows/hexlet-check.yml)
-![Test Coverage](https://img.shields.io/codeclimate/coverage/Dsx-Dev/fullstack-javascript-project-137)
+[![Maintainability](https://qlty.sh/gh/Dsx-Dev/projects/fullstack-javascript-project-137/maintainability.svg)](https://qlty.sh/gh/Dsx-Dev/projects/fullstack-javascript-project-137)
 
 Este proyecto es una aplicación Fullstack desarrollada con JavaScript, diseñada para ofrecer una solución robusta y escalable a [Breve descripción del problema que resuelve].
 
